@@ -1,0 +1,74 @@
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.exe
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.pdb
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Form1.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Properties.Resources.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.csproj.GenerateResource.Cache
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.exe
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.pdb
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Admin_Create.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Password_Reset.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Sans_Reset.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Nav_Admin.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Profile.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Admin_Dash.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Supplier.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Customer.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Login_User.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Inventory.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Nav_User.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Emp_Attendence.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Emp_Add_New.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Emp_Manage_User.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Purchase_Order.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Purchase_Bill.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Purchase_Return.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Sale_Bill.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Sale_Order.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.btn_calculate.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Service.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Display.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Sale_Bill_Print.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Emp_Salary_Print.resources
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.exe.manifest
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.application
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.exe.manifest
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.application
+C:\Users\BHAKTHI\Desktop\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.exe.config
+G:\my learning\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.exe.config
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.exe
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.pdb
+G:\my learning\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.exe.manifest
+G:\my learning\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.application
+G:\my learning\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.exe
+G:\my learning\WindowsApplication\WindowsApplication\bin\Debug\WindowsApplication.pdb
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\ResolveAssemblyReference.cache
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Admin_Create.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Admin_Dash.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Display.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Emp_Attendence.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Customer.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Emp_Add_New.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Form1.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Inventory.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Emp_Manage_User.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Login_User.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Nav_Admin.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Nav_User.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Password_Reset.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Profile.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Properties.Resources.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Purchase_Bill.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Purchase_Order.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.btn_calculate.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Purchase_Return.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Emp_Salary_Print.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Sale_Bill.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Sale_Bill_Print.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Sale_Order.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Sans_Reset.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Service.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.Supplier.resources
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.csproj.GenerateResource.Cache
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.exe.manifest
+G:\my learning\WindowsApplication\WindowsApplication\obj\Debug\WindowsApplication.application

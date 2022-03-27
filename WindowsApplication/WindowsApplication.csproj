@@ -1,0 +1,378 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{994150B6-62EA-4378-AF1D-24A721C0C733}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsApplication</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>5BE3AD77AAB2C88591484A44A7F37E0863E44527</ManifestCertificateThumbprint>
+    <ManifestKeyFile>WindowsApplication_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <ApplicationIcon>9507.ico</ApplicationIcon>
+    <PublishUrl>F:\Windows Application\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Furniture Shop</ProductName>
+    <PublisherName>Bhakthi Prabhu</PublisherName>
+    <CreateWebPageOnPublish>false</CreateWebPageOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>8</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Create.Designer.cs">
+      <DependentUpon>Admin_Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Dash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Dash.Designer.cs">
+      <DependentUpon>Admin_Dash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display.Designer.cs">
+      <DependentUpon>Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_Attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emp_Attendence.Designer.cs">
+      <DependentUpon>Emp_Attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connect.cs" />
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_Add_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emp_Add_New.Designer.cs">
+      <DependentUpon>Emp_Add_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_Manage_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emp_Manage_User.Designer.cs">
+      <DependentUpon>Emp_Manage_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_User.Designer.cs">
+      <DependentUpon>Login_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nav_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nav_Admin.Designer.cs">
+      <DependentUpon>Nav_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nav_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nav_User.Designer.cs">
+      <DependentUpon>Nav_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password_Reset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password_Reset.Designer.cs">
+      <DependentUpon>Password_Reset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin_Create.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Admin_Create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Dash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Admin_Dash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emp_Attendence.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Emp_Attendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emp_Add_New.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Emp_Add_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emp_Manage_User.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Emp_Manage_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_User.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Login_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nav_Admin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Nav_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nav_User.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Nav_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password_Reset.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Password_Reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_Bill.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Purchase_Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_Order.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Purchase_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emp_Salary.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Emp_Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_Return.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Purchase_Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emp_Salary_Print.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Emp_Salary_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale_Bill.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sale_Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale_Bill_Print.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sale_Bill_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale_Order.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sale_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sans_Reset.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sans_Reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supplier.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="WindowsApplication_TemporaryKey.pfx" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Purchase_Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_Bill.Designer.cs">
+      <DependentUpon>Purchase_Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_Return.Designer.cs">
+      <DependentUpon>Purchase_Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_Order.Designer.cs">
+      <DependentUpon>Purchase_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emp_Salary.Designer.cs">
+      <DependentUpon>Emp_Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_Salary_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emp_Salary_Print.Designer.cs">
+      <DependentUpon>Emp_Salary_Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale_Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale_Bill.Designer.cs">
+      <DependentUpon>Sale_Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale_Bill_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale_Bill_Print.Designer.cs">
+      <DependentUpon>Sale_Bill_Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale_Order.Designer.cs">
+      <DependentUpon>Sale_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sans_Reset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sans_Reset.Designer.cs">
+      <DependentUpon>Sans_Reset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service.Designer.cs">
+      <DependentUpon>Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier.Designer.cs">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.1.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.2.0">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="9507.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
